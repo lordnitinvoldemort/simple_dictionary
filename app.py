@@ -2,7 +2,7 @@ import json
 import difflib
 from difflib import get_close_matches
 
-data = json.load(open("G:\dict\data.json"))
+data = json.load(open("data.json"))
 
 def dict(w):
 	if w in data:
